@@ -1,0 +1,133 @@
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    width: 100vw;
+}
+.container{
+   background: url(images/top-banner.png) no-repeat;
+   height: 80vh;
+}
+h1{
+    font-size: 50px;
+    font-variant: small-caps;
+}
+#name_highlight{
+    color: orange;
+}
+.text-sec{
+text-align: justify;
+width: 40%;
+float: left;
+height: 100%;
+margin: 5%;
+}
+.image-sec{
+width: 40%;
+float: left;
+height: 55vh;
+text-align: center;
+background-color: #ff000061;
+border-radius: 50%;
+margin: 5%;
+position: relative;
+}
+.image-sec::after {
+    content: "";
+    height: 4em;
+    width: 4em;
+    border-radius: 50%;
+    background-color: #c52b2b;
+    position: absolute;
+    right: 2em;
+    bottom: 0em;
+}
+.image-sec img{
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+#btn{
+    padding: 5px;
+    background: orange;
+    width: 12em;
+    border-radius: 2em;
+    margin-top: 2em;
+    text-align: center;
+    text-transform: uppercase;
+    
+}
+#btn a{
+    text-decoration: none;
+}
+ .containerTwo{
+    background: url(images/dream-bg.png) no-repeat right ;
+    background-size: 4em 12em;
+    display: flex;
+    justify-content: space-between;
+    width: 98.5vw;
+    margin: auto;
+}
+#dream{
+font-variant: small-caps;
+padding: 1em;
+}
+#developer{
+    font-variant: small-caps;
+padding: 1em;
+}
+.image-sect::after{
+    width: 4em;
+    height: 4em;
+    background-color: #ff000061;
+    border-radius: 50%;    
+    position: absolute;
+    bottom: 1em;
+    right: 2em;  
+   content: "";
+}
+
+.image-sect{
+    width: 40%;
+    text-align: center;
+    background-color: #ff000061;
+    border-radius: 50%;
+    margin: 4%;
+    position: relative;
+    height: 24em;
+   
+}
+
+.text-sect{
+    text-align: justify;
+    width: 40%;
+    margin: 4%;
+}
+
+.image-sect img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+} 
+.containerThree {
+    width: 100%;
+
+}
+.wrapper{
+    display: flex;
+    justify-content: space-around;
+}
+.containerThree h1{
+    font-size: 32px;
+    padding-left: 1em;
+}
+.firstBox{
+width: 40%;
+box-shadow: 2px 2px 15px gray;
+padding-left: 2em;
+border-left: .5em solid #3e3edf;
+}
+#firstbox_1{
+    border-left: .5em solid #ff000061;
+}
